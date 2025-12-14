@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "olimpify-frontend-mobile",
-    "slug": "olimpify-frontend-mobile",
+    "slug": "olimpify",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "2f17b814-db74-4220-ba4b-0f3c4057e277"
+      }
+    },
+    "owner": "olimpify"
   }
 }
